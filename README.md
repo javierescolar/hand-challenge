@@ -1,4 +1,18 @@
-## Introduction
+# Introduction
+I solve the technical exercise of the hand challenge. the original was small bug, missing line break at end of second test...
+
+To test the tests
+```
+deno test
+or
+deno test --watch
+```
+
+
+Original repository by jesus-seijas-sp [repository](https://github.com/jesus-seijas-sp/hand-challenge).
+
+
+## Challenge Information
 
 You find a strange mirror that always shows a hand that is moving. 
 The hand appears to be alive, and after a lot of questions of "yes" and "no" answer, you know that the hand is trying to teach you a program that is written in HPL (Hand Programming Language).
@@ -24,7 +38,7 @@ This language haves 7 instructions:
 - As memory cells are bytes, from 0 to 255 value, if you decrease 0 you'll get  255, if you increment 255 you'll get 0.
 - Loops of 🤜 and 🤛 can be nested. 
 
-# Tests
+## Tests
 The hand shows you two small programs and their outputs:
 
 ## This program display "Hello"
